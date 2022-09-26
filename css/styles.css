@@ -1,0 +1,111 @@
+.conteiner {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+
+    padding: 0 15px;
+    background-color: rgb(4, 138, 172);
+}
+h1 {
+    margin: 0 0 15px 0;
+    display: block;
+    text-align: center; 
+    background-color: inherit;
+}
+p {
+    margin: 0;
+    display: block;
+    text-align: center; 
+    background-color: inherit;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.section {
+    padding-top: 21px;
+    padding-bottom: 21px;
+}
+.slider {
+    width: 100%;
+    padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+    height: max-content;
+}
+.slick-slider {
+    position: relative;
+    display: block;
+    border-radius: 5px;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+.slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    border: 12px solid rgb(252, 233, 215);
+    border-radius: 70px;
+    background-color: rgb(252, 233, 215);
+}
+.slick-prev, .slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 100px;
+    height: 20%;
+    border: radius 4px; 
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: rgb(250, 250, 250);
+    border: none;
+    outline: none;
+    background: rgba(4, 138, 172, 0.397);
+}
+.slick-prev {
+    left: 26px;
+    z-index: 3;
+}
+.slick-next {
+    right: 26px;
+}
+.slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+    color: transparent;
+    outline: none;
+    background: transparent;}
+.slick-prev:hover::before, .slick-next:hover::before {
+    color: rgba(250, 250, 250, 0.075);
+}
+
+.slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 40px;
+    line-height: 1;
+    opacity: .75;
+    color: rgb(250, 250, 250);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slick-slide {
+    display: block;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+.slider img {
+    width: 100%;
+    height: 730px;
+}
